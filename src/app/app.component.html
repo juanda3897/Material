@@ -1,17 +1,14 @@
-<form>
-  
-  <mat-form-field>
-  
-    <input type="text"  matInput  [matAutocomplete]="auto" [formControl]="myControl">
-      <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
-  
-        <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-          {{option}}
-  
-        </mat-option>
-  
-      </mat-autocomplete>
-  
-    </mat-form-field>
-  
-  </form>
+<app-autocomplete></app-autocomplete>
+<app-checkbox></app-checkbox>
+<app-datepicker></app-datepicker>
+<app-formfield></app-formfield>
+<app-input></app-input>
+<app-radiobutton></app-radiobutton>
+<app-select></app-select>
+<app-slider></app-slider>
+<app-slidetoggle></app-slidetoggle>
+
+
+
+
+
