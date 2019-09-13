@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./slidetoggle.component.css']
 })
 export class SlidetoggleComponent implements OnInit {
+  myModel=false;
 
   constructor() { }
 

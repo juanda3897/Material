@@ -1,12 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import 'hammerjs';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {FormsModule, ReactiveFormsModule} from'@angular/forms';
-import {MatAutocompleteModule, MatInputModule, MatCheckbox, MatCheckboxModule, MatRadioButton, MatRadioModule } from '@angular/material';
+import {MatAutocompleteModule, MatInputModule, MatCheckbox, MatCheckboxModule, MatRadioButton, MatRadioModule, MatDatepickerModule, MatNativeDateModule, MatFormField, MatFormFieldModule, MatSelectModule, MatSliderModule, MatSlideToggleModule } from '@angular/material';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
@@ -29,7 +31,7 @@ import { SlidetoggleComponent } from './components/slidetoggle/slidetoggle.compo
     RadiobuttonComponent,
     SelectComponent,
     SliderComponent,
-    SlidetoggleComponent,
+    SlidetoggleComponent
  
   ],
   imports: [
@@ -41,7 +43,15 @@ import { SlidetoggleComponent } from './components/slidetoggle/slidetoggle.compo
     MatAutocompleteModule,
     MatInputModule,
     MatCheckboxModule,
-    MatRadioModule
+    MatRadioModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule, 
+    MatSliderModule,
+    MatSlideToggleModule
+
 
   ],
   providers: [],
